@@ -4,17 +4,17 @@
 
 #include "Vedant_Sinha_Account.h" // Include base class definition
 
-// Comment 7: Define SavingsAccount as a derived class of Account. [cite: 524]
+// Comment 7: Define SavingsAccount as a derived class of Account. 
 class SavingsAccount : public Account {
 public:
-    // Constructor for SavingsAccount, taking initial balance and interest rate. [cite: 534]
+    // Constructor for SavingsAccount, taking initial balance and interest rate. 
     SavingsAccount(double initialBalance, double rate);
 
-    // Member function to calculate interest earned. [cite: 535]
+    // Member function to calculate interest earned. 
     double calculateInterest() const;
 
 private:
-    // Data member to store the interest rate for the savings account. [cite: 533]
+    // Data member to store the interest rate for the savings account. 
     double interestRate;
 };
 

@@ -2,7 +2,7 @@
 #include "Vedant_Sinha_SavingsAccount.h"
 
 // Constructor implementation for SavingsAccount
-// It calls the base-class (Account) constructor to initialize the balance. [cite: 534]
+// It calls the base-class (Account) constructor to initialize the balance. 
 SavingsAccount::SavingsAccount(double initialBalance, double rate)
     : Account(initialBalance), interestRate(rate) {
     // The body of the constructor is empty as initialization is done in the initializer list.
@@ -10,6 +10,6 @@ SavingsAccount::SavingsAccount(double initialBalance, double rate)
 
 // calculateInterest function implementation
 double SavingsAccount::calculateInterest() const {
-    // Comment 8: Calculate interest by multiplying the balance by the interest rate. [cite: 536]
+    // Comment 8: Calculate interest by multiplying the balance by the interest rate. 
     return getBalance() * interestRate;
 }
